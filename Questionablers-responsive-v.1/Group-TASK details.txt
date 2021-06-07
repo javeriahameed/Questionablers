@@ -1,0 +1,22 @@
+Javeria Hameed - fa18-bse-018
+
+Pages:
+1. About Us 
+2. Contact Us 
+3. Login
+4. Register
+Responsive for mobile and tablets
+
+All CSS about the pages also added by her.
+
+Zeeshan Aziz - fa18-bse-080
+
+Pages:
+1. Index
+2. ask-question
+3. Answer
+4. admindb
+5. adminlogin
+Responsive for desktop and larger screens
+
+All CSS about the pages also added by me.

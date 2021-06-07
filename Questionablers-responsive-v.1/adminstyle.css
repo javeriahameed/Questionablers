@@ -1,0 +1,268 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+ul,
+ol {
+  list-style: none inside;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+.sidebar {
+  width: 200px;
+  background-color: #1b2327;
+  position: fixed;
+  height: 100%;
+}
+
+.sidebar__subsections-brand {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  color: #e7e7e7;
+}
+.sidebar__subsections ul {
+  padding-top: 30px;
+}
+.sidebar__subsections ul li a,
+.sidebar__subsections ul li a:visited {
+  color: #e7e7e7;
+  padding: 15px 30px;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  transition: all 0.4s;
+  position: relative;
+}
+.sidebar__subsections ul li a:hover {
+  padding: 15px 30px 15px 35px;
+}
+.page {
+  margin-left: 200px;
+  background-color: #f7f7f7;
+}
+.header {
+  height: 100px;
+  background-color: #1c2e36;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #e7e7e7;
+}
+.header__search input[type="text"] {
+  border-radius: 50px;
+  background-color: rgba(231, 231, 231, 0.1);
+  font-size: 14px;
+  border: 0;
+  padding: 10px 20px;
+  transition: all 0.4s;
+  color: #e7e7e7;
+}
+.header__search input[type="text"]:focus {
+  outline: none;
+  background-color: rgba(231, 231, 231, 0.2);
+}
+.header__date {
+  margin-left: auto;
+  margin-right: 30px;
+}
+.header__user {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.header__user .icon {
+  color: #e7e7e7;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.content .title {
+  height: 100px;
+  background-color: #1c2e36;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #e7e7e7;
+  z-index: 99;
+}
+/*Admin Cards*/
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  gap: 4px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  border-radius: 2%;
+  margin: 8px;
+  width: 350px;
+  height: 150px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.pic {
+  display: flex;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  border: 2px solid white;
+  border-radius: 100%;
+  overflow: hidden;
+  transition: border 2s;
+}
+.pic:hover {
+  border: 3px solid aquamarine;
+}
+.contentcard {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  font-weight: lighter;
+}
+.yellow {
+  background-color: lightgreen;
+}
+.pink {
+  background-color: pink;
+}
+.aqua {
+  background-color: aqua;
+}
+
+/* Icons */
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+}
+.icon {
+  color: #242424;
+  font-size: 30px;
+}
+
+/* admin login css */
+
+@import url("https://fonts.googleapis.com/css?family=Baloo+Paaji");
+body {
+  margin: 0;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Baloo Paaji", cursive;
+  width: 100vw;
+  height: 100vh;
+  background-color: #3e3e3e;
+  color: #3e3e3e;
+}
+.admin {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 50px;
+  position: relative;
+}
+.admin-lock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 5px solid #ffab00;
+  right: -40px;
+  top: 50%;
+  margin-top: -40px;
+  box-sizing: border-box;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  font-size: 50px;
+  color: #3e3e3e;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.admin-lock:hover {
+  background-color: #3e3e3e;
+  color: #fff;
+}
+.admin-content {
+  border-radius: 50px;
+  width: 100%;
+  margin: 30px 70px 30px 30px;
+}
+.admin-content-header {
+  margin-top: 0;
+}
+.admin-content .form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.admin-content .form-input {
+  margin-bottom: 20px;
+  outline: none;
+  padding: 10px;
+  border: 0;
+  background-color: #e1e1e1;
+  border-radius: 5px;
+  font-family: "Baloo Paaji", cursive;
+  width: 100%;
+  box-sizing: border-box;
+  transition: box-shadow 0.15s;
+}
+.admin-content .form-input:focus {
+  box-shadow: 0 0 0 3px #ffab00;
+}
+.admin-content .form-input:focus::placeholder {
+  opacity: 0;
+}
+.admin-content .form-submit {
+  border: 0;
+  font-family: "Baloo Paaji", cursive;
+  outline: none;
+  background-color: #e1e1e1;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  transition: background-color 0.15s, color 0.15s, border 0.15s;
+}
+.admin-content .form-submit:hover {
+  background-color: #3e3e3e;
+  color: #fff;
+  border: 3px solid #ffab00;
+}
